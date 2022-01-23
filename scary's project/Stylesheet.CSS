@@ -1,0 +1,387 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color:#0a192f;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 30px 0 30px;
+}
+
+.Logo {
+    width: 36px;
+    height: 36px;
+}
+
+.navbar-nav {
+    display: flex;
+    gap: 20px;
+    color: #5cebcb;
+}
+
+.nav-context {
+    color:#8892b0;
+}
+
+.nav-button {
+    background-color:#0a192f;
+    color:#5cebcb;
+    border: 2px solid#5cebcb;
+    border-radius: 3px;
+    margin-top: -1px;
+    padding: 5.8px 11.8px 6.4px 12.6px;
+}
+
+main {
+    width: 60vw;
+    margin: 200px 200px 200px 250px ;
+}
+
+.main-context {
+    font-size: 16px;
+    font-weight: 500;
+    color: #5cebcb;
+}
+
+.name {
+    font-size: 80px;
+    font-weight: bold;
+    color: #ccd6f6;
+}
+
+.info {
+    font-size: 80px;
+    font-weight: bold;
+    color: #8892b0;
+ }
+
+.para {
+    width: 40%;
+    font-size: 16px;
+    color: #8892b0;
+    margin: 35px 0 35px 0;
+ }
+
+.main-button {
+    font-size: 14px;
+    font-weight: 500;
+    color: #5cebcb;
+    padding: 13px 17px 12px 17px;
+    border: 1px solid #5cebcb;
+    border-radius:3px;
+    background-color:#0a192f;
+}
+
+#Number-1 {
+    width: 55px;
+    height: 40px;
+    margin: 0 14px 0 250px;
+    font-size: 30px;
+    font-weight: 500;
+    color: #5cebcb;
+}
+
+.Section-context {
+    font-size: 32px;
+    font-weight: bold;
+    color: #ccd6f6;
+}
+
+.Line-1 {
+    float: right;
+    width: 300px;
+    height: 1px;
+    margin: 20px 1150px 0 0;
+    transform: rotate(-180deg);
+    background-color: #262e47;
+}
+
+.section-para{
+    width: 520px;
+    margin: 40px 0px 0px 248px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #8892b0;
+}
+
+.section-para-Custom {
+    width: 520px;
+    margin: 16px 0px 0px 248px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #8892b0;
+}
+
+.Section-ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px 0 0 248px;
+    color: #8892b0;
+}
+
+.Section-li {
+    list-style-type: none;
+}
+
+.Section-ul-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: #8892b0;
+    margin: -73px 0 0 400px;
+}
+
+.Section-li-2 {
+    list-style-type: none;;
+}
+ 
+.Arnab {
+    float: right;
+    width: 383px;
+    height: 383px;
+    margin: -400px 600px 0 0 ;
+    border-radius: 15px;
+    mix-blend-mode: unset;
+    background-color: #5cebcb;
+}
+
+.Rectangle-2 {
+    float: right;
+    width: 383px;
+    height: 383px;
+    flex-grow: 0;
+    margin: -380px 570px 0 0 ;
+    border-radius: 15px;
+    border: solid 3px #5cebcb;
+  }
+
+.Rectangle-3 {
+    float: right;
+    width: 383px;
+    height: 383px;
+    flex-grow: 0;
+    margin: -400px 600px 0 0 ;
+    border-radius: 15px;
+    mix-blend-mode: multiply;
+    background-color: #5cebcb;
+} 
+
+.Section-2 {
+    margin: 300px 0 0 500px ;
+}
+
+.Number-2 {
+    font-size: 30px;
+    font-weight: 500;
+    color: #5cebcb;
+}
+
+.Section-Context-2 {
+    margin: 1px 0 10px 14px;
+    font-size: 32px;
+    font-weight: bold;
+    color: #ccd6f6;
+}
+
+.Line-4 {
+    float: right;
+    width: 300px;
+    height: 1px;
+    margin: 20px 850px 0 0;
+    transform: rotate(-180deg);
+    background-color: #262e47;
+  }
+
+.Sub-Heading {
+    margin: 61px 14px 3px 40px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ccd6f6;
+}
+
+.Sub-heading-highlight {
+    color: #5cebcb;
+}
+
+.Date {
+    margin: 7px 27px 26px 40px;
+    font-family: RobotoMono;
+    font-size: 12px;
+    font-weight: bold;
+    color: #8892b0;
+}
+
+.Sub-Context-1 {
+    width: 420px;
+    margin: 0 0 0 40px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #8892b0
+}
+
+.Sub-Context-2 {
+    width: 420px;
+    margin: 10px 0 0 40px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #8892b0
+}
+
+.Section-3 {
+    margin: 250px 0 0 350px ;
+}
+
+.Number-3 {
+    font-size: 30px;
+    font-weight: 500;
+    color: #5cebcb;
+}
+
+.Line-6 {
+    float: right;
+    width: 300px;
+    height: 1px;
+    margin: 18px 780px 0 0;
+    transform: rotate(-180deg);
+    background-color: #262e47;
+}
+
+.capture-1 {
+    width: 692px;
+    height: 368px;
+    margin: 79px 88px 187px 0px;
+    border-radius: 15px;
+}
+
+.Rectangle-4 {
+    width: 692px;
+    height: 368px;
+    flex-grow: 0;
+    margin: -559px 600px 0 0 ;
+    border-radius: 15px;
+    mix-blend-mode: multiply;
+    background-color: #5cebcb
+}
+
+
+.Sub-Heading-2 {
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    color: #5cebcb;
+    text-align: right;
+    margin: 150px 600px 0 0;
+}
+
+.Sub-heading-highlight-2 {
+    font-size: 28px;
+    margin: 0 600px 30px 0;
+    font-weight: bold;
+    text-align: right;
+    color: #ccd6f6;
+}
+
+.Section-para-2{
+    width: 402px;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: right;
+    float: right;
+    margin: 0 600px 0 0;
+    color: #8892b0;
+    background-color: #112240;
+}
+
+.Custom-color {
+    color: #5cebcb;
+}
+
+.li-items {
+    display: block;
+    font-size: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: #8892b0;
+    gap: 19px;
+    margin: 0 0 0 10px;
+}
+
+.Vector {
+    float: right;
+    margin: 10px 10px 0 0;
+}
+
+.Group-17 {
+    float: right;
+    margin: 9px 600px 0 0;
+}
+
+footer {
+    margin: 320px 0 0 0 ;
+}
+
+.Number-4 {
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+     color: #5cebcb;
+}
+
+.Sub-Heading-3 {
+    margin: 27px 0px 26px 0px;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    color: #ccd6f6;
+}
+
+.Section-para-3 {
+    width: 577px;
+    margin: 26px 0 24px 660px;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: normal;
+    text-align: center;
+    color: #8892b0;
+}
+
+.Second-button {
+    padding: 13px 27px 12px;
+    border-radius: 3px;
+    font-weight: 500;
+    color: #5cebcb;
+    border: 1px solid #5cebcb;
+    background-color:#0a192f;
+    display: block;
+    margin: auto;
+}
+
+.developed {
+    margin: 100px 0 4px;
+    font-size: 12px;
+    font-weight: 500;
+    text-align: center;
+    color: #8892b0;
+}
+
+.Copyright {
+    margin: 8px 0px 50px 0px;
+    font-family: RobotoMono;
+    font-size: 12px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #8892b0;
+}
